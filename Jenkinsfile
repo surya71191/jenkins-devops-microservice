@@ -21,6 +21,12 @@ pipeline {
 				echo "Package"
 			}
 		}
+		
+		stage('Deploy') {
+			steps {
+				echo "Deploy"
+			}
+		}
 	}
 
 	post {
