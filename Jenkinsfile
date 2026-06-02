@@ -16,11 +16,6 @@ pipeline {
 				echo "Integration Test"
 			}
 		}
-		stage('Package') {
-			steps {
-				echo "Package"
-			}
-		}
 	}
 
 	post {
