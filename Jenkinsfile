@@ -19,6 +19,11 @@ pipeline {
 				echo "Integration Test"
 			}
 		}
+		stage('Package the application'){
+			steps{
+				echo "Package the application"
+			}
+		}
 	}
 	post{
 		always{
